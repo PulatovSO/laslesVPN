@@ -1,0 +1,288 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Rubik';
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* =========================================== */
+/* header section */
+.header-wrap, 
+.logo, 
+.nav-list, 
+.signup-wrap{
+  display: flex;
+  align-items: center;
+}
+
+.header-wrap{
+  justify-content: space-between;
+}
+
+.logo img{
+  margin-right: 8px;
+}
+
+.logo-text{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0B132A;
+}
+
+.logo-text span{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0B132A;
+  text-transform: uppercase;
+}
+
+.nav-list{
+  list-style: none;
+}
+
+.nav-list-item{
+  margin: 0 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.nav-list-item a{
+  color: #4F5665; 
+  text-transform: capitalize; 
+}
+
+.signup-wrap a{
+  margin: 20px;
+}
+
+.signin{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0B132A;
+}
+
+.btn{
+  padding: 10px 50px;
+  border: 2px solid #F53838;
+  box-sizing: border-box;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #F53855;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn:hover{
+  background-color: #F53855;
+  color: #FFFFFF;
+  box-shadow: 0 15px 25px rgba(245, 56, 56, 0.35);
+}
+
+/* /header section */
+/* =========================================== */
+/* hero section */
+
+.hero-wrap{
+  margin-top: 80px;
+  display: flex;
+}
+
+.hero-title{
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 70px;
+  color: #0B132A; 
+}
+
+.hero-p{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4F5665;
+}
+
+.dark-btn{
+  margin-top: 50px;
+}
+
+.dark-btn a{
+  padding: 15px 60px;
+  background: #F53838;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFFFFF;
+  border: 2px solid #F53855;
+  transition: all 0.5s ease-in-out;
+}
+
+.dark-btn a:hover{
+  background-color: #FFFFFF;
+  color: #F53855;
+  box-shadow: 0 15px 25px rgba(245, 56, 56, 0.35);
+}
+
+/* /hero section */
+/* =========================================== */
+/* features seciton */
+
+.features{
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.features-img{
+  width: 508px;
+}
+
+.features-text{
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.features-title{
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  color: #0B132A;
+}
+
+.features-p{
+  margin-top: 20px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4F5665;
+}
+
+.features-list{
+  margin-top: 20px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.features-list-item{
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: #4F5665;
+}
+
+.features-list-item i{
+  margin-right: 10px;
+  font-size: 22px;
+}
+
+/* /features section */
+/* =========================================== */
+/* pricing seciton */
+
+.pricing-section{
+  background-color: #e5e5e5;
+}
+
+.pricing-title{
+  padding-top: 80px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+  color: #0B132A;
+}
+
+.pricing-p{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #4F5665;
+}
+
+.pricing-cards{
+  margin-top: 60px;
+  padding-bottom: 180px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pricing-card{
+  padding: 40px;
+  width: 300px;
+  height: 800;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  background: #FFFFFF;
+  border: 2px solid #DDDDDD;
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.pricing-card:hover{
+  border: 2px solid #F53838;
+}
+
+.pricing-card-title{
+  margin: 25px 0;
+}
+
+.pricing-list{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: #4F5665;
+}
+
+.pricing-list-item{
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.pricing-list-item i{
+  margin-right: 5px;
+  font-size: 22px;
+}
+
+.price{
+  margin-top: 50pxpx;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #0B132A;
+}
+
+.pricing-card-footer span{
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  color: #4F5665;
+}
